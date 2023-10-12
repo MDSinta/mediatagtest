@@ -1,0 +1,76 @@
+/* Md Tasin Rahman, Period 9-10 ODD */
+
+body {
+    background-color: rgb(132,11,65);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #b3b8ea;
+}
+p {
+    color: white;
+}
+table {
+    border: 3px solid grey;
+}
+td {
+    border: 5px solid grey;
+}
+h2 {
+    border: 20px solid #123a12;
+    padding: 40px;
+    background-color: green;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: #ab123d;
+        font-family:'Courier New', Courier, monospace;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+    table {
+        margin-left: 20%;
+        padding:70px;
+    }
+    h2 {
+        width: 20px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+        font-size: 32px;
+    }
+    p {
+        font-size: 18px;
+    }
+    table {
+        margin-left: 40%;
+        padding: 30px;
+    }
+    h2 {
+        width: 50%;
+    }
+}
+
+@media (min-width:1025px) {
+    body {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        background-color: rgb(33,32,32);
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    table {
+        margin-left: 60%;
+    }
+    h2 {
+        width: 100%;
+    }
+}
